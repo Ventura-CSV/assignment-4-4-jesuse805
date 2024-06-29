@@ -1,11 +1,16 @@
 def main():
 
     numbers = []
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+
+    for i in range():
+
+
+
+
+
+
+
+
 
     print(*numbers)
     print(maxval, minval)
