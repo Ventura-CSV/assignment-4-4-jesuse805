@@ -12,8 +12,8 @@ def main():
                 print('Invalid Input, Try Again')
         
     if numbers:
-        minval = numbers[]
-        maxval = numbers[]
+        minval = numbers[0]
+        maxval = numbers[0]
         
                 
                 
