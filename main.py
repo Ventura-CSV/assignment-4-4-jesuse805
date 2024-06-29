@@ -5,7 +5,7 @@ def main():
     for i in range(5):
         while True:
             try:
-                num = float(input(f'Enter number {i+1}'))
+                num = int(input(f'Enter number {i+1} :'))
                 numbers.append(num)
                 break
             except ValueError:
@@ -16,21 +16,21 @@ def main():
         maxval = numbers[0]
         
         for num in numbers[1:]:
-            
-        
-                
-                
-
-
-
-
-
-
+            if num < minval:
+                minval = num
+            if num < maxval:
+                maxval = num
+    else:
+        minval = None
+        maxval = None
 
 
 
     print(*numbers)
-    print(maxval, minval)
+    
+    if minval is not None and maxval is not None:
+        
+        print(maxval, minval)
     ########################################
     # Do not delete the return statement
     ########################################
