@@ -2,7 +2,10 @@ def main():
 
     numbers = []
 
-    for i in range():
+    for i in range(5):
+        while True:
+            try:
+                
 
 
 
