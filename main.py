@@ -15,6 +15,9 @@ def main():
         minval = numbers[0]
         maxval = numbers[0]
         
+        for num in numbers[1:]:
+            
+        
                 
                 
 
