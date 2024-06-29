@@ -10,6 +10,11 @@ def main():
                 break
             except ValueError:
                 print('Invalid Input, Try Again')
+        
+    if numbers:
+        minval = numbers[]
+        maxval = numbers[]
+        
                 
                 
 
