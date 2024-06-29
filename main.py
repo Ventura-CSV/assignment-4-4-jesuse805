@@ -24,13 +24,8 @@ def main():
         minval = None
         maxval = None
 
-
-
-    print(*numbers)
-    
-    if minval is not None and maxval is not None:
-        
-        print(maxval, minval)
+    print(*numbers)    
+    print(maxval, minval)
     ########################################
     # Do not delete the return statement
     ########################################
