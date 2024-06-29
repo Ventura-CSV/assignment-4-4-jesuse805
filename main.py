@@ -5,6 +5,9 @@ def main():
     for i in range(5):
         while True:
             try:
+                num = float(input(f'Enter number {i+1}'))
+                numbers.append(num)
+                break
                 
 
 
