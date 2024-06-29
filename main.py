@@ -18,7 +18,7 @@ def main():
         for num in numbers[1:]:
             if num < minval:
                 minval = num
-            if num < maxval:
+            if num > maxval:
                 maxval = num
     else:
         minval = None
